@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("https://wallpapers.com/images/hd/black-and-white-math-board-zb383dm6tubx3bk2.jpg");
+    
+}
+
+.calculator {
+    
+    border: 1px solid #ccc;
+    padding: 30px;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 3px 5px 8px rgb(142, 242, 242);
+    border-radius: 25px;
+}
+
+.display {
+    width: 100%;
+    padding: 5px;
+    font-size: 24px;
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.img{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    place-items: left;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+   
+
+}
+
+
+button {
+    padding: 10px;
+    font-size: 18px;
+    background-color: #2be3ea;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+
+    
+}
+
+button:hover {
+    background-color: #ccc;
+}
+
+.operator {
+    background-color: #040404;
+    color: #fff;
+}
+
+.operator:hover {
+    background-color: #0191f0b7;
+}
+
+.clear {
+    background-color: #2be3ea;
+}
+
+.clear:hover {
+    background-color: #ccc;
+}
+
+input[type="text"]{
+    border-radius: 25px;
+}
